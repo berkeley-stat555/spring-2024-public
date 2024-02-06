@@ -1,35 +1,5 @@
 [
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
-    "section": "",
-    "text": "We’ll use data from several real world situations in class.",
-    "crumbs": [
-      "Datasets"
-    ]
-  },
-  {
-    "objectID": "data.html#data-1",
-    "href": "data.html#data-1",
-    "title": "Data",
-    "section": "Data 1",
-    "text": "Data 1",
-    "crumbs": [
-      "Datasets"
-    ]
-  },
-  {
-    "objectID": "data.html#data-2",
-    "href": "data.html#data-2",
-    "title": "Data",
-    "section": "Data 2",
-    "text": "Data 2",
-    "crumbs": [
-      "Datasets"
-    ]
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -50,47 +20,13 @@
     ]
   },
   {
-    "objectID": "units/unit3.html",
-    "href": "units/unit3.html",
-    "title": "Unit 3: More",
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar",
     "section": "",
-    "text": "This is an example of using qmd as the source document with pdf as one target. I’ve taken out the qmd stuff that doesn’t seem to render to pdf.",
+    "text": "We can just embed the iframe html:",
     "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
-    "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
-    "title": "Unit 3: More",
-    "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n-0.3152238829518886",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#latex",
-    "href": "units/unit3.html#latex",
-    "title": "Unit 3: More",
-    "section": "LaTeX",
-    "text": "LaTeX\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#latex-macro",
-    "href": "units/unit3.html#latex-macro",
-    "title": "Unit 3: More",
-    "section": "LaTeX macro",
-    "text": "LaTeX macro\n\nWarning: need to look back at this as having include-before-body in the yaml causes extra space at top of page.\n\n\\[\nA = X \\trans Y\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
+      "Calendar"
     ]
   },
   {
@@ -138,6 +74,13 @@
     ]
   },
   {
+    "objectID": "units/macros.html",
+    "href": "units/macros.html",
+    "title": "",
+    "section": "",
+    "text": "\\[\n\\newcommand{\\trans}{^\\mathsf{T}}\n\\newcommand{\\eps}{\\epsilon}\n\\]"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Statistics 555: From Private Repo",
@@ -158,13 +101,6 @@
     ]
   },
   {
-    "objectID": "units/macros.html",
-    "href": "units/macros.html",
-    "title": "",
-    "section": "",
-    "text": "\\[\n\\newcommand{\\trans}{^\\mathsf{T}}\n\\newcommand{\\eps}{\\epsilon}\n\\]"
-  },
-  {
     "objectID": "units/unit1.html",
     "href": "units/unit1.html",
     "title": "Unit 1: Intro",
@@ -180,7 +116,7 @@
     "href": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 1: Intro",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n-0.19483602203374864",
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n0.0696514424085226",
     "crumbs": [
       "Units",
       "Unit 1: Intro"
@@ -242,13 +178,77 @@
     ]
   },
   {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Calendar",
+    "objectID": "units/unit3.html",
+    "href": "units/unit3.html",
+    "title": "Unit 3: More",
     "section": "",
-    "text": "We can just embed the iframe html:",
+    "text": "This is an example of using qmd as the source document with pdf as one target. I’ve taken out the qmd stuff that doesn’t seem to render to pdf.",
     "crumbs": [
-      "Calendar"
+      "Units",
+      "Unit 3: More"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
+    "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
+    "title": "Unit 3: More",
+    "section": "Evaluated Python code chunk, with a plot",
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n0.15274479776846514",
+    "crumbs": [
+      "Units",
+      "Unit 3: More"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#latex",
+    "href": "units/unit3.html#latex",
+    "title": "Unit 3: More",
+    "section": "LaTeX",
+    "text": "LaTeX\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
+    "crumbs": [
+      "Units",
+      "Unit 3: More"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#latex-macro",
+    "href": "units/unit3.html#latex-macro",
+    "title": "Unit 3: More",
+    "section": "LaTeX macro",
+    "text": "LaTeX macro\n\nWarning: need to look back at this as having include-before-body in the yaml causes extra space at top of page.\n\n\\[\nA = X \\trans Y\n\\]",
+    "crumbs": [
+      "Units",
+      "Unit 3: More"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "We’ll use data from several real world situations in class.",
+    "crumbs": [
+      "Datasets"
+    ]
+  },
+  {
+    "objectID": "data.html#data-1",
+    "href": "data.html#data-1",
+    "title": "Data",
+    "section": "Data 1",
+    "text": "Data 1",
+    "crumbs": [
+      "Datasets"
+    ]
+  },
+  {
+    "objectID": "data.html#data-2",
+    "href": "data.html#data-2",
+    "title": "Data",
+    "section": "Data 2",
+    "text": "Data 2",
+    "crumbs": [
+      "Datasets"
     ]
   }
 ]
